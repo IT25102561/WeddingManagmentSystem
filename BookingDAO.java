@@ -19,7 +19,7 @@ public class BookingDAO {
 
     private void ensureFileExists(String path) {
         File file = new File(path);
-        file.getParentFile().mkdirs()
+        file.getParentFile().mkdirs();
         if (!file.exists()) {
             try { file.createNewFile(); } catch (IOException e) { e.printStackTrace(); }
         }

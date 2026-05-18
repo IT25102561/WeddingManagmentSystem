@@ -5,7 +5,7 @@ package models;
  * OOP Concept: Encapsulation (all fields private with getters/setters).
  * Manages booking transactions between clients and vendors.
  */
-public class Booking 
+public class Booking {
     private String bookingId;
     private String clientId;
     private String vendorId;
